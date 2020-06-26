@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\System.Web.Impl\System.Web.Impl.csproj" />
+    <ProjectReference Include="..\System.Web.Forward\System.Web.Forward.csproj" />
+    <ProjectReference Include="..\UILib\UILib.csproj" />
+  </ItemGroup>
+
+</Project>

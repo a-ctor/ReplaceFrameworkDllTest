@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <PublicSign>true</PublicSign>
+    <AssemblyOriginatorKeyFile>System.Web.Forward.snk</AssemblyOriginatorKeyFile>
+    <Version>4.0.1.0</Version>
+    <FileVersion>5.0.21.27801</FileVersion>
+    <RootNamespace>System.Web</RootNamespace>
+    <AssemblyName>System.Web</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\System.Web.Impl\System.Web.Impl.csproj" />
+  </ItemGroup>
+
+</Project>
